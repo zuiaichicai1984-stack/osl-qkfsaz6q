@@ -2,7 +2,7 @@ name: OpenSea Auto Sell
 
 on:
   schedule:
-    - cron: "1 */6 * * *"
+    - cron: "1 */12 * * *"
   workflow_dispatch: {}
 
 concurrency:
